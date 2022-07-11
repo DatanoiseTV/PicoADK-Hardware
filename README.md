@@ -7,6 +7,13 @@
 
 The PicoDSP is a Raspberry Pi RP2040 based Audio DSP Board. It has the same form factor like the Raspberry Pico, but has an additional PCM5102 32-bit I2S Audio Codec.
 
+## Features
+* RP2040 Dual Core 133MHz Cortex M0+ (running at 2x 400MHz Overclocked in the RTOS Template)
+* 2MB Flash (plenty for synthesizers based on Vult)
+* PCM5102 32-bit Audio Codec
+* SWD Debug Port
+* Pin-compatible with RP2040 besides a few pins
+
 ## Software
 
 You can find software examples at https://github.com/DatanoiseTV/RP2040-DSP-FreeRTOS-Template
