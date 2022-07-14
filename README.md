@@ -17,3 +17,10 @@ The PicoDSP is a Raspberry Pi RP2040 based Audio DSP Board. It has the same form
 ## Software
 
 You can find software examples at https://github.com/DatanoiseTV/RP2040-DSP-FreeRTOS-Template
+
+This template contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
+
+## Future work
+* Add castellated holes
+* Evaluate increasing flash size
+* Add SPI ADC
