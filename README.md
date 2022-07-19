@@ -29,3 +29,6 @@ This template contains the I2S codec drivers, A custom build step for Vult DSP b
 # Pinout
 
 ![pinout](https://user-images.githubusercontent.com/6614616/178937016-82d58e8c-4b84-41af-94fe-c01936c81884.jpeg)
+
+The XSMT signal is the soft mute for the audio codec and the DEMP signal is controling the de-emphasis at 44100 kHz.
+Note that there is no FMT pin, as the codec is set to operare in I2S mode.
