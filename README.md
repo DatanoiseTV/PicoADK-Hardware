@@ -34,3 +34,7 @@ The XSMT signal is the soft mute for the audio codec and the DEMP signal is cont
 Note that there is no FMT pin, as the codec is set to operare in I2S mode.
 
 # First Flashing / Getting started
+
+If you initially get the PicoDSP, you will need to flash your firmware and make sure you include **pico_bootsel_via_double_reset** in the target_link_libraries( ... ) in the CMakeLists.txt and bridge the **BOOT** and **GND** pins, then connect USB and flash the firmware
+
+After that, you can remove the bridge and you will be able to boot into the USB disk mode by fast **double pressing** reset.
