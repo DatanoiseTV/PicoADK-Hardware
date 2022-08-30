@@ -27,6 +27,11 @@ If you initially get the PicoDSP, you will need to flash your firmware and make 
 
 After that, you can remove the bridge and you will be able to boot into the USB disk mode by fast **double pressing** reset.
 
+# Caveats
+
+Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be controled by the software to mute/unmute the audio output.
+With the DEMP pin you can control the Deemphasis for 44100 Hz.
+
 ## Future work
 * Add castellated holes
 * Evaluate increasing flash size
