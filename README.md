@@ -12,6 +12,7 @@ The PicoDSP is a Raspberry Pi RP2040 based Audio DSP Board. It has the same form
 * PCM5102 32-bit Audio Codec
 * SWD Debug Port
 * Pin-compatible with RP2040 besides a few pins
+* Reset Button (double-acting as Boot button, using bootsel_via_double_reset hook (see below))
 
 ## Software
 
