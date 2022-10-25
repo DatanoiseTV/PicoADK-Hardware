@@ -1,4 +1,4 @@
-# PicoADK
+# PicoADK - Pico Audio Development Kit
 
 ## Introduction
 
@@ -45,7 +45,7 @@ If you initially get the PicoDSP, you will need to flash your firmware and make 
 
 After that, you can remove the bridge and you will be able to boot into the USB disk mode by fast **double pressing** reset.
 
-# Caveats
+# Caveats (v1 + v2)
 
 Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be controled by the software to mute/unmute the audio output.
 With the DEMP pin you can control the Deemphasis for 44100 Hz.
@@ -55,14 +55,14 @@ With the DEMP pin you can control the Deemphasis for 44100 Hz.
 * Evaluate increasing flash size
 * Add SPI ADC
 
-# Pinout
+# Pinout (v1)
 
 ![pinout](https://user-images.githubusercontent.com/6614616/178937016-82d58e8c-4b84-41af-94fe-c01936c81884.jpeg)
 
 The XSMT signal is the soft mute for the audio codec and the DEMP signal is controling the de-emphasis at 44100 kHz.
 Note that there is no FMT pin, as the codec is set to operare in I2S mode.
 
-# More Pictures
+# More Pictures (v1, non plus)
 ![signal-2022-07-11-171353](https://user-images.githubusercontent.com/6614616/178331952-df65a58a-e0cd-4261-8613-d4b20d6482e4.jpeg)
 ![FXZJiSXWAAQjR3J](https://user-images.githubusercontent.com/6614616/178937038-563c2f2a-2c2c-427a-8e2e-35cb2d0831c8.jpeg)
 
