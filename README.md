@@ -57,14 +57,14 @@ With the DEMP pin you can control the Deemphasis for 44100 Hz.
 * Evaluate increasing flash size
 * Add SPI ADC
 
-# Pinout (v1)
+# Pinout (v1) - 40 Pin
 
 ![pinout](https://user-images.githubusercontent.com/6614616/178937016-82d58e8c-4b84-41af-94fe-c01936c81884.jpeg)
 
 The XSMT signal is the soft mute for the audio codec and the DEMP signal is controling the de-emphasis at 44100 kHz.
 Note that there is no FMT pin, as the codec is set to operare in I2S mode.
 
-# Pinout (PicoADK+ v1.1)
+# Pinout (PicoADK+ v1.1) - 48 Pin
 ![PicoADK_Pinout](https://user-images.githubusercontent.com/6614616/198396033-0c1ee3e1-163d-45fd-83f9-158c114861da.png)
 
 New in the PicoADK+ v1.1:
