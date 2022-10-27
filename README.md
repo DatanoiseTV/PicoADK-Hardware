@@ -25,12 +25,10 @@ The PicoADK+ (we had to change the name PicoDSP) adds the following functionalit
 * 4 LEDs on shared GPIO2-5 for Debugging
 * GPIO15 is now hard-wired to a LED
 
-More info to be released soon.
-
 ## Features
 * RP2040 Dual Core 133MHz Cortex M0+ (running at 2x 400MHz Overclocked in the RTOS Template)
-* 2MB Flash (plenty for synthesizers based on Vult)
-* PCM5102 32-bit Audio Codec
+* 2MB Flash (plenty for synthesizers and sound generators)
+* PCM5100 32-bit Audio Codec
 * SWD Debug Port
 * Pin-compatible with RP2040 besides a few pins
 * Reset Button (double-acting as Boot button, using bootsel_via_double_reset hook (see below))
