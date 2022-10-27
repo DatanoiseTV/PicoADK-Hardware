@@ -65,7 +65,7 @@ The XSMT signal is the soft mute for the audio codec and the DEMP signal is cont
 Note that there is no FMT pin, as the codec is set to operare in I2S mode.
 
 # Pinout (PicoADK+ v1.1)
-![PicoADK_Pinout](https://user-images.githubusercontent.com/6614616/198395836-396dd32c-06f5-455f-8a22-03ddc6aa7a4f.png)
+![PicoADK_Pinout](https://user-images.githubusercontent.com/6614616/198396033-0c1ee3e1-163d-45fd-83f9-158c114861da.png)
 
 # More Pictures (v1, non plus)
 ![signal-2022-07-11-171353](https://user-images.githubusercontent.com/6614616/178331952-df65a58a-e0cd-4261-8613-d4b20d6482e4.jpeg)
