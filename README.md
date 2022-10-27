@@ -1,6 +1,6 @@
 # PicoADK - Pico Audio Development Kit
 
-## Introduction
+## PicoADK (v1) Introduction
 
 ![IMG_1211](https://user-images.githubusercontent.com/6614616/178321463-fd28d750-6690-4bcf-9f1c-f8ad699bd965.jpg)
 
