@@ -8,7 +8,7 @@ The PicoDSP is a Raspberry Pi RP2040 based Audio DSP Board. It has the same form
 
 # News as of 20-10-2022 - Introducing the PicoADK+
 
-![image](https://user-images.githubusercontent.com/6614616/197865663-59527b90-f756-4591-b7fc-98a676f9d07b.png)
+![image](https://user-images.githubusercontent.com/6614616/198357922-2b93d8a0-aeca-4126-a033-46604df934af.png)
 
 The PicoADK+ (we had to change the name PicoDSP) adds the following functionality to the existing one:
 * PCM5100 32-bit, 384KHz I2S Audio Codec
@@ -22,6 +22,7 @@ The PicoADK+ (we had to change the name PicoDSP) adds the following functionalit
 * SWD header moved to the other end of the board
 * More readable silkscreen font
 * Symbols marking special pin functions on the pin headers
+* 4 LEDs on shared GPIO2-5 for Debugging
 * GPIO15 is now hard-wired to a LED
 
 More info to be released soon.
