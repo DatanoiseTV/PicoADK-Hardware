@@ -67,6 +67,10 @@ Note that there is no FMT pin, as the codec is set to operare in I2S mode.
 # Pinout (PicoADK+ v1.1)
 ![PicoADK_Pinout](https://user-images.githubusercontent.com/6614616/198396033-0c1ee3e1-163d-45fd-83f9-158c114861da.png)
 
+New in the PicoADK+ v1.1:
+* 8 additional 12-bit ADC Inputs with external separate supply VEXT (up to 5v)
+* Solder jumper on the bottom of the PCB for selecting internal 3.3VA ADC supply or external VREF.
+
 # More Pictures (v1, non plus)
 ![signal-2022-07-11-171353](https://user-images.githubusercontent.com/6614616/178331952-df65a58a-e0cd-4261-8613-d4b20d6482e4.jpeg)
 ![FXZJiSXWAAQjR3J](https://user-images.githubusercontent.com/6614616/178937038-563c2f2a-2c2c-427a-8e2e-35cb2d0831c8.jpeg)
