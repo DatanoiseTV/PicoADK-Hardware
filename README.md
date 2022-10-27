@@ -43,11 +43,15 @@ This template contains the I2S codec drivers, A custom build step for Vult DSP b
 
 # First Flashing / Getting started
 
+V1:
 If you initially get the PicoDSP, you will need to flash your firmware and make sure you include **pico_bootsel_via_double_reset** in the target_link_libraries( ... ) in the CMakeLists.txt and bridge the **BOOT** and **GND** pins, then connect USB and flash the firmware
+
+V1.1:
+* Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer.
 
 After that, you can remove the bridge and you will be able to boot into the USB disk mode by fast **double pressing** reset.
 
-# Caveats (v1 + v2)
+# Caveats (v1 + v1.1)
 
 Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be controled by the software to mute/unmute the audio output.
 With the DEMP pin you can control the Deemphasis for 44100 Hz.
