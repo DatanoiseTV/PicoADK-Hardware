@@ -1,12 +1,6 @@
 # PicoADK - Pico Audio Development Kit
 
-## PicoADK (v1) Introduction
-
-![IMG_1211](https://user-images.githubusercontent.com/6614616/178321463-fd28d750-6690-4bcf-9f1c-f8ad699bd965.jpg)
-
-The PicoDSP is a Raspberry Pi RP2040 based Audio DSP Board. It has the same form factor like the Raspberry Pico, but has an additional PCM5100A 32-bit I2S Audio Codec.
-
-# News as of 20-10-2022 - Introducing the PicoADK+
+# Introducing the PicoADK+
 
 ![image](https://user-images.githubusercontent.com/6614616/198357922-2b93d8a0-aeca-4126-a033-46604df934af.png)
 
@@ -25,7 +19,7 @@ The PicoADK+ (we had to change the name PicoDSP) adds the following functionalit
 * 4 LEDs on shared GPIO2-5 for Debugging
 * GPIO15 is now hard-wired to a LED
 
-## Features
+## Features (both v1 and v1.1)
 * RP2040 Dual Core 133MHz Cortex M0+ (running at 2x 400MHz Overclocked in the RTOS Template)
 * 2MB Flash (plenty for synthesizers and sound generators)
 * PCM5100A 32-bit Audio Codec
