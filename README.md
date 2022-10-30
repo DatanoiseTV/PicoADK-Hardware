@@ -29,10 +29,6 @@ You can find software examples at https://github.com/DatanoiseTV/RP2040-DSP-Free
 This template contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
 
 # First Flashing / Getting started
-
-V1:
-If you initially get the PicoDSP, you will need to flash your firmware and make sure you include **pico_bootsel_via_double_reset** in the target_link_libraries( ... ) in the CMakeLists.txt and bridge the **BOOT** and **GND** pins, then connect USB and flash the firmware
-
 V1.1:
 * Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer.
 
