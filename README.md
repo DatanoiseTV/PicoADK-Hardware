@@ -45,7 +45,10 @@ With the DEMP pin you can control the Deemphasis for 44100 Hz.
 * Add SPI ADC
 
 # Pinout (PicoADK+ v1.1) - 48 Pin
-![PicoADK+_Pinout](https://user-images.githubusercontent.com/6614616/198894508-400ff98a-00c5-483a-b021-9af1c710fb6d.png)
+
+![image](https://user-images.githubusercontent.com/6614616/198907086-aaeb9831-ceb2-4acc-8242-45671ba2a3fd.png)
+
+Interactive pinout at https://datanoise.net/picoadk/
 
 New in the PicoADK+ v1.1:
 * 8 additional 12-bit ADC Inputs with external separate supply VEXT (up to 5v)
