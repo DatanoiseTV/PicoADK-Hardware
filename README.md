@@ -39,11 +39,6 @@ After that, you can remove the bridge and you will be able to boot into the USB 
 Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be controled by the software to mute/unmute the audio output.
 With the DEMP pin you can control the Deemphasis for 44100 Hz.
 
-## Future work
-* Add castellated holes
-* Evaluate increasing flash size
-* Add SPI ADC
-
 # Pinout (PicoADK+ v1.1) - 48 Pin
 
 ![image](https://user-images.githubusercontent.com/6614616/198907086-aaeb9831-ceb2-4acc-8242-45671ba2a3fd.png)
