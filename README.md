@@ -29,10 +29,8 @@ You can find software examples at https://github.com/DatanoiseTV/RP2040-DSP-Free
 This template contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
 
 # First Flashing / Getting started
-V1.1:
-* Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer.
 
-After that, you can remove the bridge and you will be able to boot into the USB disk mode by fast **double pressing** reset.
+* Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer.
 
 # Caveats (v1 + v1.1)
 
