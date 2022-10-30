@@ -4,14 +4,14 @@
 
 ![IMG_1211](https://user-images.githubusercontent.com/6614616/178321463-fd28d750-6690-4bcf-9f1c-f8ad699bd965.jpg)
 
-The PicoDSP is a Raspberry Pi RP2040 based Audio DSP Board. It has the same form factor like the Raspberry Pico, but has an additional PCM5102 32-bit I2S Audio Codec.
+The PicoDSP is a Raspberry Pi RP2040 based Audio DSP Board. It has the same form factor like the Raspberry Pico, but has an additional PCM5100A 32-bit I2S Audio Codec.
 
 # News as of 20-10-2022 - Introducing the PicoADK+
 
 ![image](https://user-images.githubusercontent.com/6614616/198357922-2b93d8a0-aeca-4126-a033-46604df934af.png)
 
 The PicoADK+ (we had to change the name PicoDSP) adds the following functionality to the existing one:
-* PCM5100 32-bit, 384KHz I2S Audio Codec
+* PCM5100A 32-bit, 384KHz I2S Audio Codec
 * ESD Protection on USB
 * Better signal to noise ratio
 * Better power supply circuits
@@ -28,7 +28,7 @@ The PicoADK+ (we had to change the name PicoDSP) adds the following functionalit
 ## Features
 * RP2040 Dual Core 133MHz Cortex M0+ (running at 2x 400MHz Overclocked in the RTOS Template)
 * 2MB Flash (plenty for synthesizers and sound generators)
-* PCM5100 32-bit Audio Codec
+* PCM5100A 32-bit Audio Codec
 * SWD Debug Port
 * Pin-compatible with RP2040 besides a few pins
 * Reset Button (double-acting as Boot button, using bootsel_via_double_reset hook (see below))
