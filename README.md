@@ -48,19 +48,17 @@ With the DEMP pin you can control the Deemphasis for 44100 Hz.
 * Evaluate increasing flash size
 * Add SPI ADC
 
-# Pinout (v1) - 40 Pin
-
-![pinout](https://user-images.githubusercontent.com/6614616/178937016-82d58e8c-4b84-41af-94fe-c01936c81884.jpeg)
-
-The XSMT signal is the soft mute for the audio codec and the DEMP signal is controling the de-emphasis at 44100 kHz.
-Note that there is no FMT pin, as the codec is set to operare in I2S mode.
-
 # Pinout (PicoADK+ v1.1) - 48 Pin
 ![PicoADK+_Pinout](https://user-images.githubusercontent.com/6614616/198894508-400ff98a-00c5-483a-b021-9af1c710fb6d.png)
 
 New in the PicoADK+ v1.1:
 * 8 additional 12-bit ADC Inputs with external separate supply VEXT (up to 5v)
 * Solder jumper on the bottom of the PCB for selecting internal 3.3VA ADC supply or external VREF.
+
+The XSMT signal is the soft mute for the audio codec and the DEMP signal is controling the de-emphasis at 44100 kHz.
+Note that there is no FMT pin, as the codec is set to operare in I2S mode.
+
+The SPI ADC shares the GPIO10 to GPIO13, which are also present on the pin headers. Please be aware of that.
 
 # More Pictures (v1, non plus)
 ![signal-2022-07-11-171353](https://user-images.githubusercontent.com/6614616/178331952-df65a58a-e0cd-4261-8613-d4b20d6482e4.jpeg)
