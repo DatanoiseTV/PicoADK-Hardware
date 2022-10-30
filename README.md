@@ -2,7 +2,7 @@
 
 # Introducing the PicoADK+
 
-![image](https://user-images.githubusercontent.com/6614616/198357922-2b93d8a0-aeca-4126-a033-46604df934af.png)
+![image](https://user-images.githubusercontent.com/6614616/198906776-1d92a2c5-ed88-480d-8a1b-df887a9325fa.png)
 
 The PicoADK+ (we had to change the name PicoDSP) adds the following functionality to the existing one:
 * PCM5100A 32-bit, 384KHz I2S Audio Codec
