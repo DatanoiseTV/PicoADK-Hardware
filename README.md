@@ -67,7 +67,7 @@ The XSMT signal is the soft mute for the audio codec and the DEMP signal is cont
 Note that there is no FMT pin, as the codec is set to operare in I2S mode.
 
 # Pinout (PicoADK+ v1.1) - 48 Pin
-![PicoADK_Pinout](https://user-images.githubusercontent.com/6614616/198396033-0c1ee3e1-163d-45fd-83f9-158c114861da.png)
+![PicoADK+_Pinout](https://user-images.githubusercontent.com/6614616/198894508-400ff98a-00c5-483a-b021-9af1c710fb6d.png)
 
 New in the PicoADK+ v1.1:
 * 8 additional 12-bit ADC Inputs with external separate supply VEXT (up to 5v)
