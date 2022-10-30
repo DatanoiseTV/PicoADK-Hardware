@@ -11,6 +11,8 @@ The specifications are:
 * 2MB Flash (plenty for synthesizers and sound generators)
 * PCM5100A 32-bit Audio Codec
 * SWD Debug Port
+* Very low noise LDO regulators (separate LDO for digital circuits and separate for analog circuits)
+* No switching regulators
 * Pin-compatible with RP2040 (besides a few pins internally used or rearranged)
 * PCM5100A 32-bit, up to 384KHz I2S Audio Codec
 * Dedicated Boot and Reset Buttons
