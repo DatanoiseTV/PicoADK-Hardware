@@ -3,28 +3,24 @@
 # Introducing the PicoADK+
 ![image](https://user-images.githubusercontent.com/6614616/198906826-37f1ca64-14bd-4d27-a55e-15f008642603.png)
 
-The PicoADK+ (we had to change the name PicoDSP) adds the following functionality to the existing one:
-* PCM5100A 32-bit, 384KHz I2S Audio Codec
-* ESD Protection on USB
-* Better signal to noise ratio
-* Better power supply circuits
-* Dedicated Boot and Reset Buttons
-* 8 channel 12-bit ADC with up to 1MS/s, with selectable 3.3V range (on-board low-noise power supply) or range up to 5V via external VREF
-* Low-Pass filter on each ADC input (fMax=48 KHz) at low-impedance (100 Ohm). With 5V VREF suitable for CV (no overvoltage protection, unipolar)
-* Series resistors on ADC SPI to improve signal integrity and reduce crosstalk
-* SWD header moved to the other end of the board
-* More readable silkscreen font
-* Symbols marking special pin functions on the pin headers
-* 4 LEDs on shared GPIO2-5 for Debugging
-* GPIO15 is now hard-wired to a LED
+The PicoADK+ (we had to change the name PicoDSP) is a RP2040 based Audio Development Kit, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico, plus a high quality Audio Output, 8 Analog Inputs for connecting potentiometers, control voltage from eurorack systems or even additional input signals.
 
-## Features (both v1 and v1.1)
+The specifications are:
+
 * RP2040 Dual Core 133MHz Cortex M0+ (running at 2x 400MHz Overclocked in the RTOS Template)
 * 2MB Flash (plenty for synthesizers and sound generators)
 * PCM5100A 32-bit Audio Codec
 * SWD Debug Port
-* Pin-compatible with RP2040 besides a few pins
-* Reset Button (double-acting as Boot button, using bootsel_via_double_reset hook (see below))
+* Pin-compatible with RP2040 (besides a few pins internally used or rearranged)
+* PCM5100A 32-bit, up to 384KHz I2S Audio Codec
+* Dedicated Boot and Reset Buttons
+* 8 channel 12-bit ADC with up to 1MS/s, with selectable 3.3V range (on-board low-noise power supply) or range up to 5V via external VREF
+* Low-Pass filter on each ADC input (fMax=48 KHz) at low-impedance (100 Ohm). With 5V VREF suitable for CV (no overvoltage protection, unipolar)
+* Series resistors on ADC SPI to improve signal integrity and reduce crosstalk
+* Symbols marking special pin functions on the pin headers
+* 4 LEDs on shared GPIO2-5 for debugging
+* GPIO15 is hard-wired to a LED
+* ESD Protection on USB
 
 ## Software
 
