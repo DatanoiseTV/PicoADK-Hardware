@@ -54,14 +54,12 @@ Some signals are routed to internal peripherals as following:
 
 The SPI ADC shares the GPIO10 to GPIO13, which are also present on the pin headers. Please be aware of that.
 
+Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be controled by the software to mute/unmute the audio output.
+With the DEMP pin you can control the Deemphasis for 44100 Hz.
+
 # First Flashing / Getting started
 
 * Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer.
-
-# Caveats (v1 + v1.1)
-
-Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be controled by the software to mute/unmute the audio output.
-With the DEMP pin you can control the Deemphasis for 44100 Hz.
 
 ## Software
 
