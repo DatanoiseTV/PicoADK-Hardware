@@ -8,8 +8,6 @@ The PicoADK+ (we had to change the name from PicoDSP to avoid confusion with Eri
 # Specifications
 * RP2040 Dual Core 133MHz Cortex M0+ (running at 2x 400MHz Overclocked in the RTOS Template)
 * 2MB Flash (plenty for synthesizers and sound generators)
-* PCM5100A 32-bit Audio Codec
-* SWD Debug Port
 * Very low noise LDO regulators (separate LDO for digital circuits and separate for analog circuits)
 * No switching regulators
 * Pin-compatible with RP2040 (besides a few pins internally used or rearranged)
@@ -22,6 +20,7 @@ The PicoADK+ (we had to change the name from PicoDSP to avoid confusion with Eri
 * 4 LEDs on shared GPIO2-5 for debugging
 * GPIO15 is hard-wired to a LED
 * ESD Protection on USB
+* SWD Debug Port
 
 # Pinout (PicoADK+ v1.1) - 48 Pin
 
