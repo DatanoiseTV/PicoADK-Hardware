@@ -29,12 +29,28 @@ The PicoADK+ (we had to change the name PicoDSP) is a RP2040 based Audio Develop
 
 Interactive pinout at https://datanoise.net/picoadk/
 
-New in the PicoADK+ v1.1:
-* 8 additional 12-bit ADC Inputs with external separate supply VEXT (up to 5v)
-* Solder jumper on the bottom of the PCB for selecting internal 3.3VA ADC supply or external VREF.
+## Internal Signals
 
-The XSMT signal is the soft mute for the audio codec and the DEMP signal is controling the de-emphasis at 44100 kHz.
-Note that there is no FMT pin, as the codec is set to operare in I2S mode.
+Some signals are routed to internal peripherals as following:
+
+| GPIO          | Function              | Shared with GPIO on Pin Header?   |
+| ------------- | --------------------- | --------------------------------- |
+| GPIO2         | Debug LED 1           | yes                               |
+| GPIO3         | Debug LED 2           | yes                               |
+| GPIO4         | Debug LED 3           | yes                               |
+| GPIO5         | Debug LED 4           | yes                               |
+| GPIO10        | ADC128 SPI1 SCK       | yes                               |
+| GPIO11        | ADC128 SPI1 MOSI      | yes                               |
+| GPIO12        | ADC128 SPI1 MISO      | yes                               |
+| GPIO13        | ADC128 SPI1 CSn       | yes                               |
+| GPIO15        | Big Debug LED         | no                                |
+| GPIO16        | PCM5102 I2S DAT       | no                                |
+| GPIO17        | PCM5102 I2S BCLK      | no                                |
+| GPIO16        | PCM5102 I2S LRCLK     | no                                |
+| GPIO23        | PCM5102 DEMP          | no                                |
+| GPIO24        | VBUS Detect Pin       | no                                |
+| GPIO25        | PCM5102 XSMT          | no                                |
+
 
 The SPI ADC shares the GPIO10 to GPIO13, which are also present on the pin headers. Please be aware of that.
 
