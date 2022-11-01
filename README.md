@@ -57,7 +57,7 @@ Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be co
 With the DEMP pin you can control the Deemphasis for 44100 Hz.
 
 # Block Diagram  (simplified)
-![PicoADK Diagram](https://user-images.githubusercontent.com/6614616/199276422-81d77587-8acf-4f85-ab5e-24ace48c548e.png)
+![PicoADK Diagram(1)](https://user-images.githubusercontent.com/6614616/199276802-3cfb1608-071d-42e8-8c82-e9a6716adb66.png)
 
 # First Flashing / Getting started
 
