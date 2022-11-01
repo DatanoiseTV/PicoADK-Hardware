@@ -50,16 +50,14 @@ Some signals are routed to internal peripherals as following:
 | GPIO24        | VBUS Detect Pin       | no                  |
 | GPIO25        | PCM5102 XSMT          | no                  |
 
-# Block Diagram
-![PicoADK Diagram](https://user-images.githubusercontent.com/6614616/199275332-33c21698-672a-472c-b746-eb5464296962.png)
-
-
-
 
 The SPI ADC shares the GPIO10 to GPIO13, which are also present on the pin headers. Please be aware of that.
 
 Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be controled by the software to mute/unmute the audio output.
 With the DEMP pin you can control the Deemphasis for 44100 Hz.
+
+# Block Diagram  (simplified)
+![PicoADK Diagram](https://user-images.githubusercontent.com/6614616/199276422-81d77587-8acf-4f85-ab5e-24ace48c548e.png)
 
 # First Flashing / Getting started
 
