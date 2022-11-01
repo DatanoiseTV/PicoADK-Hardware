@@ -50,6 +50,11 @@ Some signals are routed to internal peripherals as following:
 | GPIO24        | VBUS Detect Pin       | no                  |
 | GPIO25        | PCM5102 XSMT          | no                  |
 
+# Block Diagram
+![PicoADK Diagram](https://user-images.githubusercontent.com/6614616/199275332-33c21698-672a-472c-b746-eb5464296962.png)
+
+
+
 
 The SPI ADC shares the GPIO10 to GPIO13, which are also present on the pin headers. Please be aware of that.
 
