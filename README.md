@@ -1,7 +1,7 @@
 # PicoADK - Pico Audio Development Kit
 
 # Introducing the PicoADK+
-![image](https://user-images.githubusercontent.com/6614616/198909586-313a59ea-7eb2-40a1-a97a-4cf171eacf3d.png)
+![PicoADK Assembly Drawing](https://user-images.githubusercontent.com/6614616/199252868-243d9d33-7af8-47b6-917b-c2e54897d329.png)
 
 The PicoADK+ (we had to change the name from PicoDSP to avoid confusion with Erica PicoDSP) is a RP2040 based Audio Development Kit, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico, plus a high quality Audio Output, 8 Analog Inputs for connecting potentiometers, control voltage from eurorack systems or even additional input signals.
 
