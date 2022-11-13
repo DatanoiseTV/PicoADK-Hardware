@@ -68,3 +68,8 @@ With the DEMP pin you can control the Deemphasis for 44100 Hz.
 You can find software examples at https://github.com/DatanoiseTV/RP2040-DSP-FreeRTOS-Template (currently some rework in progress, this was for the first "Big PCB" version).
 
 This template contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
+
+## Arduino IDE support
+
+The PicoADK is supported by Arduino:
+https://github.com/earlephilhower/arduino-pico
