@@ -1,4 +1,5 @@
 # PicoADK - Pico Audio Development Kit
+![Photo of PicoADK boards](https://user-images.githubusercontent.com/6614616/202743360-4aaa77be-d970-40fa-9b17-5f5f045b87c9.jpg)
 
 # Introducing the PicoADK+
 ![PicoADK Assembly Drawing](https://user-images.githubusercontent.com/6614616/199252868-243d9d33-7af8-47b6-917b-c2e54897d329.png)
