@@ -20,7 +20,9 @@ python3 ./get.py
 
 Make sure that a CPU frequency of 133MHz might not be sufficient, so try higher clock speeds like 225MHz.
 
-## Code example
+## Code examples
+
+### Audio DAC
 
 This example will play a 220Hz Square Wave
 ```cpp
@@ -83,6 +85,47 @@ void loop() {
   count++;
 
   if(count % 1024 == 0) Serial.println(count);
+}
+```
+
+### 8x 12-Bit on-board ADC
+```cpp
+#include "SPI.h"
+
+SPISettings spiSettingsAdc(16000000, MSBFIRST, SPI_MODE2);
+
+void setup()
+{
+  Serial.begin(115200);
+  
+  pinMode(PIN_SPI1_SS, OUTPUT);
+  SPI1.setTX(PIN_SPI1_MOSI);
+  SPI1.setRX(PIN_SPI1_MISO);
+  SPI1.setSCK(PIN_SPI1_SCK);
+  SPI1.begin();
+}
+
+uint16_t readADC(int chan)
+{
+  SPI.beginTransaction(spiSettingsAdc);
+  digitalWrite(PIN_SPI1_SS, LOW);
+  uint8_t hi = SPI1.transfer( chan << 3 );
+  uint16_t lo = SPI1.transfer( 0 );
+  digitalWrite(PIN_SPI1_SS, HIGH);
+  SPI.endTransaction();
+  return (hi << 8) | lo;
+}
+
+void loop()
+{
+  
+  for(int ch=0; ch<8; ch++){
+    uint16_t val = readADC(ch);
+    Serial.print(val);
+    Serial.print(" ");
+  }
+  Serial.println();
+  delay(10); // you can skip the delay.
 }
 ```
 
