@@ -55,7 +55,6 @@ void setup() {
 
   Serial.begin(115200);
 
-
   Serial.println("I2S simple tone");
 
   i2s.setBCLK(PIN_I2S_BCLK);
