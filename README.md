@@ -101,3 +101,7 @@ In general, this board should be also supported by CircuitPython.
 This is also purely experimental and in an early untested stage.
 
 More information can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/GettingStarted_CircuitPython.md).
+
+## Discord
+
+You can find the PicoADK at Discord right [here](https://discord.gg/gcwAGZ9e).
