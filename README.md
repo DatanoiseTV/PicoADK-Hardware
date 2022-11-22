@@ -105,3 +105,7 @@ More information can be found [here](https://github.com/DatanoiseTV/PicoADK-Hard
 ## Discord
 
 You can find the PicoADK at Discord right [here](https://discord.gg/gcwAGZ9e).
+
+## Preorders
+
+The PicoADK can be ordered at [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/)
