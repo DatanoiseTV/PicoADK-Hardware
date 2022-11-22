@@ -81,6 +81,7 @@ The PicoADK is supported by Arduino:
 https://github.com/earlephilhower/arduino-pico
 
 The Arduino support is currently experimental and the recommended software template is to use this repository.
+As of 2022-11-22, it is still not in the mainline arduino-pico release and requires [Manual Installation](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/GettingStarted_Arduino.md).
 
 ### Micropython support
 
