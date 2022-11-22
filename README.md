@@ -11,7 +11,7 @@ The PicoADK+ (we had to change the name from PicoDSP to avoid confusion with Eri
 * 2MB Flash (plenty for synthesizers and sound generators)
 * Very low noise LDO regulators (separate LDO for digital circuits and separate for analog circuits)
 * No switching regulators
-* Pin-compatible with RP2040 (besides a few pins internally used or rearranged)
+* Partially pin-compatible with RP2040 (besides a few pins internally used or rearranged), extra 4 pins on each side
 * PCM5100A 32-bit, up to 384kHz I2S Audio Codec
 * Dedicated Boot and Reset Buttons
 * 8 channel 12-bit ADC with up to 1MS/s, with selectable 3.3V range (on-board low-noise power supply) or range up to 5V via external VREF
