@@ -86,5 +86,6 @@ As of 2022-11-22, it is still not in the mainline arduino-pico release and requi
 ### Micropython support
 
 In general, this board should be also supported by CircuitPython.
-
 This is also purely experimental and in an early untested stage.
+
+More information can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/GettingStarted_CircuitPython.md).
