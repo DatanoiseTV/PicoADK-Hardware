@@ -57,6 +57,11 @@ The SPI ADC shares the GPIO10 to GPIO13, which are also present on the pin heade
 Make sure your software controls the XSMT and DEMP pins. The XSMT needs to be controled by the software to mute/unmute the audio output.
 With the DEMP pin you can control the Deemphasis for 44100 Hz.
 
+## Changes required for 5V ADC range (default is 3.3v)
+
+By default, the ADC range is approximately 0-3.3v provided by a low-noise internal 3.3V voltage source.
+If you want to use 0-5V input range, you need to cut the trace on the jumper on the bottom of the PCB and bridge the VEXT position with the middle of the jumper. MAKE SURE THAT YOU CHECK FOR NON-CONTINUITY WITH A MULTIMETER between the 3.3V reference side and the middle of the jumper to make sure you've cut the bridge properly. The recommended way of cutting the trace is using a sharp blade such as an exacto knife. Use of a dremel or similar is not recommended, as it could damage the other layers of the board
+
 # Block Diagram  (simplified)
 ![PicoADK Diagram(1)](https://user-images.githubusercontent.com/6614616/199276802-3cfb1608-071d-42e8-8c82-e9a6716adb66.png)
 
