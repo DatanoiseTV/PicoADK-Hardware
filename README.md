@@ -75,7 +75,15 @@ You can find software examples at https://github.com/DatanoiseTV/RP2040-DSP-Free
 
 This template contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
 
-## Arduino IDE support
+### Arduino IDE support
 
 The PicoADK is supported by Arduino:
 https://github.com/earlephilhower/arduino-pico
+
+The Arduino support is currently experimental and the recommended software template is to use this repository.
+
+### Micropython support
+
+In general, this board should be also supported by CircuitPython.
+
+This is also purely experimental and in an early untested stage.
