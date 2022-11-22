@@ -8,6 +8,7 @@ The PicoADK+ (we had to change the name from PicoDSP to avoid confusion with Eri
 
 # Specifications
 * RP2040 Dual Core 133MHz Cortex M0+ (running at 2x 400MHz Overclocked in the RTOS Template)
+* USB Type-C connector with 5.1k resistors on CC pins (get up to 3A / 15W)
 * 2MB Flash (plenty for synthesizers and sound generators)
 * Very low noise LDO regulators (separate LDO for digital circuits and separate for analog circuits)
 * No switching regulators
