@@ -108,4 +108,4 @@ You can find the PicoADK at Discord right [here](https://discord.gg/gcwAGZ9e).
 
 ## Preorders
 
-The PicoADK can be ordered at [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/)
+The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/)
