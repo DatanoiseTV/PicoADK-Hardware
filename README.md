@@ -69,6 +69,11 @@ The on board LDO is only able to supply around 100mA of current on the 3.3V outp
 
 *Please* consider using an external 3.3V LDO if using the ADC in 3.3V mode or modify the solder jumper on the bottom of the PCB to allow the ADC to work with up to 5V range and potentiometers to be powered by 5V. Please see the remark above at *Changes required for 5V ADC range (default is 3.3v)*.
 
+The most common external LDO for 3.3V operation is the AMS1117-3.3. The input of the external LDO should be attached to the VSYS pin or VBUS pin, depening on your requirements and should be decoupled with a capacitor on both input and output.
+
+It is also recommended to connect each ADC pin with a big resistor (eg. 1M) to GND to avoid noise / floating inputs.
+The inputs of the ADC all have a passive low-pass filter with a cutoff frequency of 48kHz at 100 Ohms load.
+
 # Block Diagram  (simplified)
 ![PicoADK Diagram(1)](https://user-images.githubusercontent.com/6614616/199276802-3cfb1608-071d-42e8-8c82-e9a6716adb66.png)
 
