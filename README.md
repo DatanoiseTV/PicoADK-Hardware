@@ -102,10 +102,11 @@ This is also purely experimental and in an early untested stage.
 
 More information can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/GettingStarted_CircuitPython.md).
 
-## Discord
+## Community
 
-You can find the PicoADK at Discord right [here](https://discord.gg/gcwAGZ9e).
+You can find the PicoADK at Discord right [here](https://discord.gg/gcwAGZ9e) and a community discussion board on [GitHub Discussions](https://github.com/DatanoiseTV/PicoADK-Hardware/discussions)
 
 ## Preorders
 
 The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/)
+
