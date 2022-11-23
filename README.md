@@ -106,6 +106,9 @@ More information can be found [here](https://github.com/DatanoiseTV/PicoADK-Hard
 
 You can find the PicoADK at Discord right [here](https://discord.gg/gcwAGZ9e) and a community discussion board on [GitHub Discussions](https://github.com/DatanoiseTV/PicoADK-Hardware/discussions)
 
+## EDA Libraries
+* [EasyEDA Library](https://u.easyeda.com/search?wd=picoadk&indextype=components)
+
 ## Preorders
 
 The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/)
