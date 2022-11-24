@@ -109,6 +109,10 @@ You can find the PicoADK at Discord right [here](https://discord.gg/gcwAGZ9e) an
 ## EDA Libraries
 * [EasyEDA Library](https://u.easyeda.com/search?wd=picoadk&indextype=components)
 
+## 3D Model
+
+The STEP file for mechanical design can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/PicoADK_3D.step?raw=true).
+
 ## Preorders
 
 The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/)
