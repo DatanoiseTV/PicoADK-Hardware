@@ -47,7 +47,7 @@ Some signals are routed to internal peripherals as following:
 | GPIO15        | Big Debug LED         | no                  |
 | GPIO16        | PCM5100A I2S DAT      | no                  |
 | GPIO17        | PCM5100A I2S BCLK     | no                  |
-| GPIO16        | PCM5100A I2S LRCLK    | no                  |
+| GPIO18        | PCM5100A I2S LRCLK    | no                  |
 | GPIO23        | PCM5100A DEMP         | no                  |
 | GPIO24        | VBUS Detect Pin       | no                  |
 | GPIO25        | PCM5102 XSMT          | no                  |
