@@ -1,6 +1,11 @@
 # PicoADK - Pico Audio Development Kit
 ![Photo of PicoADK boards](https://user-images.githubusercontent.com/6614616/202743360-4aaa77be-d970-40fa-9b17-5f5f045b87c9.jpg)
 
+# Attention (v1.1)
+
+Attention! The PicoADK v1.1 has the test pads for USB reversed (D/P swapped).
+Please make sure you take that into consideration when designing a custom board using the testpads.
+
 # Introducing the PicoADK+
 ![PicoADK Assembly Drawing](https://user-images.githubusercontent.com/6614616/199252868-243d9d33-7af8-47b6-917b-c2e54897d329.png)
 
