@@ -3,9 +3,9 @@
 
 # Attention (v1.1)
 
-Attention! The PicoADK v1.1 has the test pads for USB reversed (D/P swapped).
+Attention! The PicoADK v1.1 has the **test pads for USB reversed (D/P swapped)**.
 Please make sure you take that into consideration when designing a custom board using the testpads.
-*This is fixed in v1.1a*.
+**This is fixed in v1.1a**.
 
 # Introducing the PicoADK+
 ![PicoADK Assembly Drawing](https://user-images.githubusercontent.com/6614616/199252868-243d9d33-7af8-47b6-917b-c2e54897d329.png)
