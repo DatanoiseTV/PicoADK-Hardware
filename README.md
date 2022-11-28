@@ -1,5 +1,9 @@
 # PicoADK - Pico Audio Development Kit
-![Photo of PicoADK boards](https://user-images.githubusercontent.com/6614616/202743360-4aaa77be-d970-40fa-9b17-5f5f045b87c9.jpg)
+
+![Datanoise_-_PicoADK_220616_2](https://user-images.githubusercontent.com/6614616/204330373-8ac946f7-e301-48bb-ad0e-cb384b125ff2.jpg)
+![Datanoise_-_PicoADK_220616_1](https://user-images.githubusercontent.com/6614616/204330381-30dcaece-6c8a-4ac0-9baf-9c717f358b95.jpg)
+
+Photos courtesy of Paul D. Pape - derwellenreiter for schneidersladen, Berlin, Germany. 
 
 # Attention (v1.1)
 
