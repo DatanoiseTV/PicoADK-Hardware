@@ -99,11 +99,11 @@ This template contains the I2S codec drivers, A custom build step for Vult DSP b
 
 ### Arduino IDE support
 
-The PicoADK is supported by Arduino:
+The PicoADK is supported by Arduino using the Arduino Pico Package from Earle Philhower
 https://github.com/earlephilhower/arduino-pico
 
 The Arduino support is currently experimental and the recommended software template is to use this repository.
-As of 2022-11-22, it is still not in the mainline arduino-pico release and requires [Manual Installation](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/GettingStarted_Arduino.md).
+**The PicoADK board is supported on Arduino Pico Release 2.6.4+ onwards**.
 
 ### Micropython support
 
