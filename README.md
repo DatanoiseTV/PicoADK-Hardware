@@ -5,6 +5,10 @@
 
 Photos courtesy of Paul D. Pape - derwellenreiter for schneidersladen, Berlin, Germany. 
 
+## Buy
+
+The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
+
 # Attention (v1.1)
 
 Attention! The PicoADK v1.1 has the **test pads for USB reversed (D/P swapped)**.
@@ -122,8 +126,4 @@ You can find the PicoADK at Discord right [here](https://discord.gg/BsHUEdStMt) 
 ## 3D Model
 
 The STEP file for mechanical design can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/PicoADK_3D.step?raw=true).
-
-## Preorders
-
-The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/)
 
