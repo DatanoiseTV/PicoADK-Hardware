@@ -9,12 +9,6 @@ Photos courtesy of Paul D. Pape - derwellenreiter for schneidersladen, Berlin, G
 
 The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
 
-# Attention (v1.1)
-
-Attention! The PicoADK v1.1 has the **test pads for USB reversed (D/P swapped)**.
-Please make sure you take that into consideration when designing a custom board using the testpads.
-**This is fixed in v1.1a**.
-
 # Introducing the PicoADK+
 ![PicoADK Assembly Drawing](https://user-images.githubusercontent.com/6614616/199252868-243d9d33-7af8-47b6-917b-c2e54897d329.png)
 
@@ -37,6 +31,12 @@ The PicoADK is a RP2040 based Audio Development Kit, which allows you to build y
 * GPIO15 is hard-wired to a LED
 * ESD Protection on USB
 * SWD Debug Port
+
+# Attention (v1.1)
+
+Attention! The PicoADK v1.1 has the **test pads for USB reversed (D/P swapped)**.
+Please make sure you take that into consideration when designing a custom board using the testpads.
+**This is fixed in v1.1a**.
 
 # Pinout (PicoADK+ v1.1) - 48 Pin
 
