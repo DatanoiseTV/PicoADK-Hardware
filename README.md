@@ -32,6 +32,12 @@ The PicoADK is a RP2040 based Audio Development Kit, which allows you to build y
 * ESD Protection on USB
 * SWD Debug Port
 
+# Software / Firmware
+
+You can find firmware examples at https://github.com/DatanoiseTV/RP2040-DSP-FreeRTOS-Template
+
+The repository contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
+
 # Attention (v1.1)
 
 Attention! The PicoADK v1.1 has the **test pads for USB reversed (D/P swapped)**.
@@ -94,12 +100,6 @@ The inputs of the ADC all have a passive low-pass filter with a cutoff frequency
 # First Flashing / Getting started
 
 * Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer.
-
-## Software
-
-You can find software examples at https://github.com/DatanoiseTV/RP2040-DSP-FreeRTOS-Template (currently some rework in progress, this was for the first "Big PCB" version).
-
-This template contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
 
 ### Arduino IDE support
 
