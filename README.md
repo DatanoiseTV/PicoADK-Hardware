@@ -32,7 +32,7 @@ The PicoADK is a RP2040 based Audio Development Kit, which allows you to build y
 
 # Software / Firmware
 
-You can find firmware examples at https://github.com/DatanoiseTV/PicoADK-Firmware-Template
+You can find the firmware template including examples at https://github.com/DatanoiseTV/PicoADK-Firmware-Template
 
 The repository contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
 
