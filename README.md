@@ -16,7 +16,7 @@ Thanks to the Vult DSP language you can even create digital resonant filters, os
 The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/datanoise-picoadk) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
 
 # Specifications
-* RP2040 Dual Core Cortex M0+
+* RP2040 Dual Core Cortex M0+ running at up to 400MHz
 * USB Type-C connector
 * 2MB Flash for Firmware and Data
 * Very low noise LDO regulators (separate LDO for digital circuits and separate for analog circuits), no switching regulators
