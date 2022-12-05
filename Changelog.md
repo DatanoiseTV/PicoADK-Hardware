@@ -4,6 +4,7 @@
 * Replaced 200mA LDO with 300mA LDO
 * Replaced LED on GPIO15 with WS2812-2020 RGB LED + 5V logic shifter for proper operation
 * Minor silkscreen changes
+* Add QWIIC-compatible 4 Pin JST 1.0mm Header for I2C Expansions
 
 ## v1.1
 * ADC128S102 12-bit ADC added
