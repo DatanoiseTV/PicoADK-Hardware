@@ -1,7 +1,6 @@
 # PicoADK - Pico Audio Development Kit
 
 ![PicoADK_Top](https://user-images.githubusercontent.com/6614616/204331022-7a1bd446-c71a-40a0-b4f4-a88dd94fb2c9.jpg)
-![PicoADK_Bottom](https://user-images.githubusercontent.com/6614616/204331016-972bd326-9c70-4fef-a129-4217e2f7a2fe.jpg)
 
 Photos courtesy of Paul D. Pape - derwellenreiter for schneidersladen, Berlin, Germany. 
 
@@ -126,3 +125,6 @@ You can find the PicoADK at Discord right [here](https://discord.gg/BsHUEdStMt) 
 
 The STEP file for mechanical design can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/PicoADK_3D.step?raw=true).
 
+## More Pictures
+
+![PicoADK_Bottom](https://user-images.githubusercontent.com/6614616/204331016-972bd326-9c70-4fef-a129-4217e2f7a2fe.jpg)
