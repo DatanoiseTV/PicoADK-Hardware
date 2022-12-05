@@ -13,7 +13,7 @@ Thanks to the Vult DSP language you can even create digital resonant filters, os
 
 ## Buy
 
-The PicoADK can be ordered at [Schneidersladen]([https://schneidersladen.de/](https://schneidersladen.de/de/datanoise-picoadk)) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
+The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/datanoise-picoadk) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
 
 # Specifications
 * RP2040 Dual Core Cortex M0+
