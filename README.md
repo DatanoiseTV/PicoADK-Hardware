@@ -10,6 +10,10 @@ The PicoADK is a RP2040 based Audio Development Kit, which allows you to build y
 Even though it is very small, it is capable of synthesizing and outputting a very high quality sound output.
 Thanks to the Vult DSP language you can even create digital resonant filters, oscillators and even complete synthesizers!
 
+## Sound demos
+
+You can find some sound teasers at [Soundcloud](https://soundcloud.com/datanoisebln).
+
 ## Buy
 
 The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/datanoise-picoadk) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
