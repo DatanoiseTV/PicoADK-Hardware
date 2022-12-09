@@ -118,6 +118,9 @@ This is also purely experimental and in an early untested stage.
 
 More information can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/GettingStarted_CircuitPython.md).
 
+## Projects
+* [https://github.com/DatanoiseTV/PicoADK-Eurorack-Module](PicoADK-Eurorack-Module (by Datanoise)
+
 ## Community
 
 You can find the PicoADK at Discord right [here](https://discord.gg/BsHUEdStMt) and a community discussion board on [GitHub Discussions](https://github.com/DatanoiseTV/PicoADK-Hardware/discussions)
