@@ -119,7 +119,7 @@ This is also purely experimental and in an early untested stage.
 More information can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/GettingStarted_CircuitPython.md).
 
 ## Projects
-* [PicoADK Eurorack Module]([PicoADK-Eurorack-Module](https://github.com/DatanoiseTV/PicoADK-Eurorack-Module)) (by Datanoise)
+* [PicoADK Eurorack Module](https://github.com/DatanoiseTV/PicoADK-Eurorack-Module) (by Datanoise)
 
 Want your project listed? Let me know.
 
