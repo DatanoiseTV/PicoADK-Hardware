@@ -1,10 +1,10 @@
 # PicoADK - Pico Audio Development Kit
 
 ![PicoADK v1.1 Top](https://user-images.githubusercontent.com/6614616/204331022-7a1bd446-c71a-40a0-b4f4-a88dd94fb2c9.jpg)
+Photo courtesy of Paul D. Pape - derwellenreiter for schneidersladen, Berlin, Germany. 
 
 ![PicoADK v1.1a Top](https://user-images.githubusercontent.com/6614616/208942839-973d7aec-1588-49ae-b695-3c5a1ed805d5.jpg)
 
-Photos courtesy of Paul D. Pape - derwellenreiter for schneidersladen, Berlin, Germany. 
 
 # Introduction
 The PicoADK is a RP2040 based Audio Development Kit, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico, plus a high quality Audio Output, 8 Analog Inputs for connecting potentiometers, control voltage from eurorack systems or even additional input signals.
@@ -142,3 +142,4 @@ The STEP file for mechanical design can be found [here](https://github.com/Datan
 ## More Pictures
 
 ![PicoADK_Bottom](https://user-images.githubusercontent.com/6614616/204331016-972bd326-9c70-4fef-a129-4217e2f7a2fe.jpg)
+Photo courtesy of Paul D. Pape - derwellenreiter for schneidersladen, Berlin, Germany. 
