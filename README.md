@@ -16,6 +16,8 @@ Thanks to the Vult DSP language you can even create digital resonant filters, os
 
 You can find some sound teasers at [Soundcloud](https://soundcloud.com/datanoisebln).
 
+[![PicoADK Monosynth Demo](http://img.youtube.com/vi/8SXC7bpoYGg/0.jpg)](http://www.youtube.com/watch?v=8SXC7bpoYGg "PicoADK Monosynth Demo")
+
 ## Buy
 
 The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/datanoise-picoadk) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
