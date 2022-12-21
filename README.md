@@ -1,6 +1,8 @@
 # PicoADK - Pico Audio Development Kit
 
-![PicoADK_Top](https://user-images.githubusercontent.com/6614616/204331022-7a1bd446-c71a-40a0-b4f4-a88dd94fb2c9.jpg)
+![PicoADK v1.1 Top](https://user-images.githubusercontent.com/6614616/204331022-7a1bd446-c71a-40a0-b4f4-a88dd94fb2c9.jpg)
+
+![PicoADK v1.1a Top](https://user-images.githubusercontent.com/6614616/208942839-973d7aec-1588-49ae-b695-3c5a1ed805d5.jpg)
 
 Photos courtesy of Paul D. Pape - derwellenreiter for schneidersladen, Berlin, Germany. 
 
