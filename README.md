@@ -103,6 +103,8 @@ The most common external LDO for 3.3V operation is the AMS1117-3.3. The input of
 It is also recommended to connect each ADC pin with a big resistor (eg. 1M) to GND to avoid noise / floating inputs.
 The inputs of the ADC all have a passive low-pass filter with a cutoff frequency of 48kHz at 100 Ohms load.
 
+*Update as of "A" revision*: The LDO can supply 300mA now.
+
 # Block Diagram  (simplified)
 ![PicoADK Diagram(1)](https://user-images.githubusercontent.com/6614616/199276802-3cfb1608-071d-42e8-8c82-e9a6716adb66.png)
 
