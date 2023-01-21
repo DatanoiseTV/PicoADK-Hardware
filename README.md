@@ -73,7 +73,7 @@ Some signals are routed to internal peripherals as following:
 | GPIO11        | ADC128 SPI1 MOSI      | yes                 |
 | GPIO12        | ADC128 SPI1 MISO      | yes                 |
 | GPIO13        | ADC128 SPI1 CSn       | yes                 |
-| GPIO15        | Big Debug LED         | no                  |
+| GPIO15        | Big Debug LED (Ws2812 on v1.1a) | no                  |
 | GPIO16        | PCM5100A I2S DAT      | no                  |
 | GPIO17        | PCM5100A I2S BCLK     | no                  |
 | GPIO18        | PCM5100A I2S LRCLK    | no                  |
