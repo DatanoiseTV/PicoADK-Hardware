@@ -14,6 +14,10 @@ You can find some sound teasers at [Soundcloud](https://soundcloud.com/datanoise
 
 [![PicoADK Video](http://img.youtube.com/vi/Of5W7NF73aU/0.jpg)](http://www.youtube.com/watch?v=Of5W7NF73aU "PicoADK Video")
 
+
+[![PicoADK Video](http://img.youtube.com/vi/cAB-Xt0ou-U/0.jpg)](http://www.youtube.com/watch?v=cAB-Xt0ou-U "PicoADK Video")
+
+
 ## Buy
 
 The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/datanoise-picoadk) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
