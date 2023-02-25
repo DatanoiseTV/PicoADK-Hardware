@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/6614616/221370659-aa833624-9984-4085-a3ed-c0e76640e920.png)
 
 # Introduction
-The PicoADK is a RP2040 based Audio Development Kit, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico, plus a high quality Audio Output, 8 Analog Inputs for connecting potentiometers, control voltage from eurorack systems or even additional input signals.
+The PicoADK is a RP2040 based Audio Development Board, which allows you to build your own digital oscillators, synthesizers, noise boxes and experiment around. It has all the base features of the Raspberry Pico, plus a high quality Audio Output, 8 Analog Inputs for connecting potentiometers, control voltage from eurorack systems or even additional input signals.
 
 Even though it is very small, it is capable of synthesizing and outputting a very high quality sound output.
 Thanks to the Vult DSP language you can even create digital resonant filters, oscillators and even complete synthesizers!
