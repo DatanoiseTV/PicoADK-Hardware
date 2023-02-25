@@ -12,7 +12,7 @@ Thanks to the Vult DSP language you can even create digital resonant filters, os
 
 You can find some sound teasers at [Soundcloud](https://soundcloud.com/datanoisebln).
 
-[![PicoADK Monosynth Demo](http://img.youtube.com/vi/8SXC7bpoYGg/0.jpg)](http://www.youtube.com/watch?v=8SXC7bpoYGg "PicoADK Monosynth Demo")
+[![PicoADK Video](http://img.youtube.com/vi/Of5W7NF73aU/0.jpg)](http://www.youtube.com/watch?v=Of5W7NF73aU "PicoADK Video")
 
 ## Buy
 
