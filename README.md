@@ -90,20 +90,7 @@ With the DEMP pin you can control the Deemphasis for 44100 Hz.
 ## Changes required for 5V ADC range (default is 3.3v)
 
 By default, the ADC range is approximately 0-3.3v provided by a low-noise internal 3.3V voltage source.
-If you want to use 0-5V input range, you need to cut the trace on the jumper on the bottom of the PCB and bridge the VEXT position with the middle of the jumper. MAKE SURE THAT YOU CHECK FOR NON-CONTINUITY WITH A MULTIMETER between the 3.3V reference side and the middle of the jumper to make sure you've cut the bridge properly. The recommended way of cutting the trace is using a sharp blade such as an exacto knife. Use of a dremel or similar is not recommended, as it could damage the inner layers of the board
-
-## Notes on attaching potentiometers and bigger loads (>100mA) to the 3.3V power rail
-
-The on board LDO is only able to supply around 100mA of current on the 3.3V output. Therefore, if you are using potentiometers where the CW side is attached to GND and the CCW side is attached to 3.3V, a big current draw might destroy your boards LDO regulator.
-
-*Please* consider using an external 3.3V LDO if using the ADC in 3.3V mode or modify the solder jumper on the bottom of the PCB to allow the ADC to work with up to 5V range and potentiometers to be powered by 5V. Please see the remark above at *Changes required for 5V ADC range (default is 3.3v)*.
-
-The most common external LDO for 3.3V operation is the AMS1117-3.3. The input of the external LDO should be attached to the VSYS pin or VBUS pin, depening on your requirements and should be decoupled with a capacitor on both input and output.
-
-It is also recommended to connect each ADC pin with a big resistor (eg. 1M) to GND to avoid noise / floating inputs.
-The inputs of the ADC all have a passive low-pass filter with a cutoff frequency of 48kHz at 100 Ohms load.
-
-*Update as of "A" revision*: The LDO can supply 300mA now.
+If you want to use 0-5V input range, you need to cut the trace on the jumper on the bottom of the PCB and bridge the VEXT position with the middle of the jumper. MAKE SURE THAT YOU CHECK FOR NON-CONTINUITY WITH A MULTIMETER between the 3.3V reference side and the middle of the jumper to make sure you've cut the bridge properly. The recommended way of cutting the trace is using a sharp blade such as an exacto knife. Use of a dremel or similar is NOT recommended, as it could damage the inner layers of the board
 
 # Block Diagram  (simplified)
 ![PicoADK Diagram(1)](https://user-images.githubusercontent.com/6614616/199276802-3cfb1608-071d-42e8-8c82-e9a6716adb66.png)
