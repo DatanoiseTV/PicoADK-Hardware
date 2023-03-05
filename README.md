@@ -57,6 +57,8 @@ Please make sure you take that into consideration when designing a custom board 
 
 ![image](https://user-images.githubusercontent.com/6614616/198907086-aaeb9831-ceb2-4acc-8242-45671ba2a3fd.png)
 
+The Analog Lineout are the Pins marked with **L** and **R**.
+
 Interactive pinout at https://datanoise.net/picoadk/
 
 ## Internal Signals
