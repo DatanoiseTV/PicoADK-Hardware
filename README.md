@@ -51,7 +51,8 @@ The repository contains the I2S codec drivers, A custom build step for Vult DSP 
 
 ![image](https://user-images.githubusercontent.com/6614616/198907086-aaeb9831-ceb2-4acc-8242-45671ba2a3fd.png)
 
-The Analog Lineout are the Pins marked with **L** and **R**.
+The Analog Lineout are the Pins marked with **L** and **R**. You can find them on the right bottom
+of the PicoADK (when USB is facing upwards).
 
 Interactive pinout at https://datanoise.net/picoadk/
 
@@ -93,7 +94,7 @@ If you want to use 0-5V input range, you need to cut the trace on the jumper on 
 
 # First Flashing / Getting started
 
-* Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer.
+* Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer. After that, you will be able to just drag and drop the UF2 file with the firmware image onto it.
 
 ### Arduino IDE support
 
