@@ -41,19 +41,13 @@ The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/da
 * SWD Debug Header
 * JST 1.0mm 4 Pin (QWIIC compatible) I2C Connector
 
-# Software / Firmware
+# Firmware
 
 You can find the firmware template including examples at https://github.com/DatanoiseTV/PicoADK-Firmware-Template
 
 The repository contains the I2S codec drivers, A custom build step for Vult DSP based projects and a synthesizer as an example and should be a good starting point for most projects.
 
-# Attention (v1.1)
-
-Attention! The PicoADK v1.1 has the **test pads for USB reversed (D/P swapped)**.
-Please make sure you take that into consideration when designing a custom board using the testpads.
-**This is fixed in v1.1a**.
-
-# Pinout (PicoADK+ v1.1) - 48 Pin
+# Pinout (PicoADK v1.1) - 48 Pin
 
 ![image](https://user-images.githubusercontent.com/6614616/198907086-aaeb9831-ceb2-4acc-8242-45671ba2a3fd.png)
 
@@ -75,7 +69,7 @@ Some signals are routed to internal peripherals as following:
 | GPIO11        | ADC128 SPI1 MOSI      | yes                 |
 | GPIO12        | ADC128 SPI1 MISO      | yes                 |
 | GPIO13        | ADC128 SPI1 CSn       | yes                 |
-| GPIO15        | Big Debug LED (Ws2812 on v1.1a) | no                  |
+| GPIO15        | Big Debug LED (WS2812 on v1.1a) | no                  |
 | GPIO16        | PCM5100A I2S DAT      | no                  |
 | GPIO17        | PCM5100A I2S BCLK     | no                  |
 | GPIO18        | PCM5100A I2S LRCLK    | no                  |
