@@ -89,9 +89,6 @@ With the DEMP pin you can control the Deemphasis for 44100 Hz.
 By default, the ADC range is approximately 0-3.3v provided by a low-noise internal 3.3V voltage source.
 If you want to use 0-5V input range, you need to cut the trace on the jumper on the bottom of the PCB and bridge the VEXT position with the middle of the jumper. MAKE SURE THAT YOU CHECK FOR NON-CONTINUITY WITH A MULTIMETER between the 3.3V reference side and the middle of the jumper to make sure you've cut the bridge properly. The recommended way of cutting the trace is using a sharp blade such as an exacto knife. Use of a dremel or similar is NOT recommended, as it could damage the inner layers of the board
 
-# Block Diagram  (simplified)
-![PicoADK Diagram(1)](https://user-images.githubusercontent.com/6614616/199276802-3cfb1608-071d-42e8-8c82-e9a6716adb66.png)
-
 # First Flashing / Getting started
 
 * Press and Hold the B(OOT) button and press reset quickly. Afterwards release the BOOT button and you will see a RP2_BOOT drive on your computer. After that, you will be able to just drag and drop the UF2 file with the firmware image onto it.
