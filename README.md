@@ -28,7 +28,7 @@ The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/da
 # Specifications
 * RP2040 Dual Core Cortex M0+ running at up to 400MHz
 * USB Type-C connector (Host & Device Mode)
-* 2MB Flash for Firmware and Data
+* 2MB Flash for Firmware and Data (4MB on v1.1b)
 * Very low noise LDO regulators with separate LDO for digital circuits and separate for analog circuits, no switching regulators
 * Partially pin-compatible with RP2040 (besides a few pins internally used or rearranged), extra 4 pins on each side for SPI ADC
 * Audio DAC PCM5100A, up to 32-bit high-quality output
