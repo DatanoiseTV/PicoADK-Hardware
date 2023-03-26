@@ -1,3 +1,6 @@
+## v1.1b
+* Replaced 2MB QSPI Flash with 4MB QSPI Flash
+
 ## v1.1a
 
 * Space-optimized power fitler circuit
