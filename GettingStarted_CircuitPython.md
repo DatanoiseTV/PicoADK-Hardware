@@ -3,6 +3,9 @@
 [Micropython Beta Build for PicoADK](https://cloud.datanoise.org/s/bRjAR5mWHggxYKA)
 
 # Example code
+
+Place a small file called fanfare_test-44khz.wav on the virtual disk.
+
 ```python
 import audiobusio
 import audiocore
