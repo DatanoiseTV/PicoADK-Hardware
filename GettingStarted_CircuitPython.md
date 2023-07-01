@@ -1,6 +1,9 @@
 # Beta support
 
-[Micropython Beta Build for PicoADK](https://cloud.datanoise.org/s/bRjAR5mWHggxYKA)
+[Micropython Beta Build for PicoADK (UF2)](https://cloud.datanoise.org/s/bRjAR5mWHggxYKA)
+
+Enter the PicoADK Bootloader Mode by pressing and holding the BOOT button and quickly pressing the RESET button, then releasing
+both buttons. Drag and Drop the UF2 file onto the virtual disk which has appeared.
 
 # Example code
 
