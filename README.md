@@ -108,10 +108,7 @@ The Arduino support is currently experimental and the recommended software templ
 
 ### Micropython support
 
-In general, this board should be also supported by CircuitPython.
-This is also purely experimental and in an early untested stage.
-
-More information can be found [here](https://github.com/DatanoiseTV/PicoADK-Hardware/blob/main/GettingStarted_CircuitPython.md).
+**Update**: As of CircuitPython 8.2.1, the PicoADK is supported! Get it [here](https://github.com/adafruit/circuitpython/releases)
 
 ## Projects
 * [PicoADK Eurorack Module](https://github.com/DatanoiseTV/PicoADK-Eurorack-Module) (by Datanoise)
