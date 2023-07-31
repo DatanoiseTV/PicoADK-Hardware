@@ -1,3 +1,8 @@
+## Update
+
+Harvard University Electronic Instrument Design Lab has prepared a Wiki with examples for the PicoADK.
+Check it out [here](https://wiki.harvard.edu/confluence/display/ESHOP/PicoADK).
+
 # PicoADK - Pico Audio Development Kit
 
 ![image](https://user-images.githubusercontent.com/6614616/221370659-aa833624-9984-4085-a3ed-c0e76640e920.png)
