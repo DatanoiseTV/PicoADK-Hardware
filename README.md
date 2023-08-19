@@ -1,3 +1,9 @@
+# Chaos Communication Camp 2023 News
+![image](https://github.com/DatanoiseTV/PicoADK-Hardware/assets/6614616/30dfcad6-0982-495d-9aab-b6aa91c250c4)
+
+Update: You can still get your PicoADKs from our [Webshop](https://shop.datanoise.org).
+The generative synthesizer code will be released in the next days after cleanup and improvements.
+
 ## Update
 
 Harvard University Electronic Instrument Design Lab has prepared a Wiki with examples for the PicoADK.
