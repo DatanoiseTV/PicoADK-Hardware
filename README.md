@@ -6,9 +6,7 @@ The generative synthesizer code will be released in the next days after cleanup 
 
 The binary firmware with the generative synth can be found [here](https://drive.google.com/drive/folders/1Jn0zohJbr8nEFEMbxhBMfcaeF9Sd0cPG?usp=drive_link).
 
-[![Demo Video]
-(https://img.youtube.com/vi/zJeEAZuXIGk/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=zJeEAZuXIGk)
+[![Demo Video](https://img.youtube.com/vi/zJeEAZuXIGk/maxresdefault.jpg)](https://www.youtube.com/watch?v=zJeEAZuXIGk)
 
 ## Update
 
