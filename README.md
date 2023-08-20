@@ -4,6 +4,8 @@
 Update: You can still get your PicoADKs from our [Webshop](https://shop.datanoise.org).
 The generative synthesizer code will be released in the next days after cleanup and improvements.
 
+The binary firmware with the generative synth can be found [here](https://drive.google.com/drive/folders/1Jn0zohJbr8nEFEMbxhBMfcaeF9Sd0cPG?usp=drive_link).
+
 ## Update
 
 Harvard University Electronic Instrument Design Lab has prepared a Wiki with examples for the PicoADK.
