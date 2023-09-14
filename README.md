@@ -5,6 +5,7 @@ Update: You can still get your PicoADKs from our [Webshop](https://shop.datanois
 The generative synthesizer code will be released in the next days after cleanup and improvements.
 
 The binary firmware with the generative synth can be found [here](https://files.datanoise.org/firmware/picoadk/).
+Update: More firmware can be found [here](https://files.datanoise.org/firmware/picoadk/)
 
 [![Demo Video](https://img.youtube.com/vi/zJeEAZuXIGk/maxresdefault.jpg)](https://www.youtube.com/watch?v=zJeEAZuXIGk)
 
