@@ -37,10 +37,7 @@ You can find some sound teasers at [Soundcloud](https://soundcloud.com/datanoise
 
 ## Buy
 
-The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/datanoise-picoadk) and [Tindie](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/).
-
-[![image](https://user-images.githubusercontent.com/6614616/208098584-522e602e-c4b3-4fa6-95e5-9adad6390e22.png)](https://www.tindie.com/products/datanoisetv/picoadk-pico-audio-development-kit/)
-
+The PicoADK can be ordered at [Schneidersladen](https://schneidersladen.de/de/datanoise-picoadk) and [Datanoise Shop](https://shop.datanoise.org).
 
 # Specifications
 * RP2040 Dual Core Cortex M0+ running at up to 400MHz (overclocked)
